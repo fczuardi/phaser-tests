@@ -3,7 +3,20 @@
   "version": "0.1.0",
   "description": "Some experiments with phaser js",
   "main": "index.js",
+  "scripts": {
+    "start": "http-server .",
+    "fmt": "prettier --write src/*.js tasks/*.js",
+    "build:libs": "node tasks/build_libs.js"
+  },
   "repository": "git@github.com:fczuardi/phaser-tests.git",
   "author": "Fabricio C Zuardi",
-  "license": "AGPL-3"
+  "license": "AGPL-3",
+  "dependencies": {
+    "phaser-ce": "^2.7.3"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0",
+    "prettier": "^0.0.7",
+    "shelljs": "^0.7.6"
+  }
 }
