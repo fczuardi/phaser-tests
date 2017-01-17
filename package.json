@@ -1,0 +1,9 @@
+{
+  "name": "phaser-tests",
+  "version": "0.1.0",
+  "description": "Some experiments with phaser js",
+  "main": "index.js",
+  "repository": "git@github.com:fczuardi/phaser-tests.git",
+  "author": "Fabricio C Zuardi",
+  "license": "AGPL-3"
+}
